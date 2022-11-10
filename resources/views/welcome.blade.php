@@ -15,7 +15,7 @@
                 <h1>Tutorial</h1>
             </div>
             <div class="col-sm-12">
-                <a href="" class="btn btn-link">Crear nueva Tarea</a>
+                <a href="{{ route('tarea.create') }}" class="btn btn-link">Crear nueva Tarea</a>
                 <a href="" class="btn btn-link">Listar Tarea</a>
             </div>
         </div>
